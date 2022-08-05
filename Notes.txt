@@ -1,0 +1,15 @@
+1. Create a txt file with recipes
+2. Baking procedure will have 2 components: (1)ingredients (2) procedure
+- ingredients will have 2 components (1) measurement (2) ingredient
+3. System will separate ingredients and procedure in a container and will display it as a dragabble item.
+4. System will randomize the position of ingredients and procedure in their container.
+5. There will be a fixed container containing measurements (also draggable)
+6. User will drag ingredients into the baking spot based on how they recall the recipe.
+7. There will be a button to check if they created the recipe based on the recipe file.
+8. Highlights: (green) correct (red) incorrect (yellow) missing
+
+
+Recipe format
+{} - ingredient. compound words should be hypenated. should not contain spaces.
+: - measurement
+Example 1/4 cup of bread flour = {1/4cup:bread-flour}

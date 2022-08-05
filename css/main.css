@@ -1,0 +1,52 @@
+div#randomDiv{
+    border: 1px solid red;
+    width: 95%;
+    min-height: 200px;
+    padding:5px;
+    margin:10px;
+}
+
+div#answerDiv{
+    border: 1px solid green;
+    width: 95%;
+    min-height: 200px;
+    padding:5px;
+    margin:10px;
+}
+
+.words{
+    border: 1px solid grey;
+    padding: 5px;
+    margin: 2px;
+    width: fit-content;
+    display: inline-block;
+    cursor: pointer;
+}
+
+div.ingredient > input{
+    width: 50px;
+    margin-right: 5px;
+}
+
+li.steps {
+    border: 1px solid rgb(66, 65, 65);
+    margin: 5px;
+    padding: 2px;
+    min-height: 34px;
+    cursor: pointer;
+}
+
+.invalid{
+    color: red;
+    text-decoration-color: red;
+}
+
+.valid{
+    color: green;
+    text-decoration-color: green;
+}
+
+.currStep{
+    border: 1.5px solid rgb(8, 8, 151) !important ;
+    border-radius: 5px;
+}
